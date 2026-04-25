@@ -14,9 +14,6 @@ pip install -U numpy pandas matplotlib scapy
 
 python ./make_figures.py --runs_root ./runs --baseline_prefix baseline_ --defense_prefix defense_ --start 1 --end 10 --hmi_iface DPSRS-eth4 --uplink_iface DPSRS-eth2 --attack_prefix combined_ --attack_start 1 --attack_end 5 --attacker_iface DPSRS-eth5 --outdir ./figures/combined --export_envelopes_csv ./results/combined/envelopes_with_paired_deltas.csv
 
-Command for combinedBroadcast
-
-python ./make_figures.py --runs_root ./runs --baseline_prefix baseline_ --defense_prefix defense_ --start 1 --end 10 --hmi_iface DPSRS-eth4 --uplink_iface DPSRS-eth2 --attack_prefix combinedBroadcast_ --attack_start 1 --attack_end 5 --attacker_iface DPSRS-eth5 --outdir ./figures/combinedBroadcast --export_envelopes_csv ./results/combinedBroadcast/envelopes_with_paired_deltas.csv
 
 ######################################################################################################
 
