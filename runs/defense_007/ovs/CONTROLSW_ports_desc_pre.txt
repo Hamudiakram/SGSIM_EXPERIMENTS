@@ -1,0 +1,25 @@
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 1(CONTROLSW-eth1): addr:b6:14:92:b7:dd:26
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 2(CONTROLSW-eth2): addr:e2:67:ea:7f:8e:41
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 3(CONTROLSW-eth3): addr:12:1c:22:32:0e:8f
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 4(CONTROLSW-eth4): addr:96:d7:23:33:6d:e3
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(CONTROLSW): addr:56:ab:97:b8:9c:4c
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

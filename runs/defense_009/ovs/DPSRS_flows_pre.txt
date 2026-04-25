@@ -1,0 +1,15 @@
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=1119.836s, table=0, n_packets=0, n_bytes=0, priority=500,ip,in_port=5,dl_src=00:06:5b:00:00:66,nw_src=1.1.3.66 actions=drop
+ cookie=0x0, duration=1119.828s, table=0, n_packets=1108, n_bytes=244868, priority=260,in_port=2,dl_src=b4:b1:5a:0a:b4:01,dl_dst=01:0c:cd:01:00:06,dl_type=0x88b8 actions=output:4
+ cookie=0x0, duration=1119.821s, table=0, n_packets=1108, n_bytes=244868, priority=260,in_port=3,dl_src=00:30:a7:00:00:04,dl_dst=01:0c:cd:01:00:06,dl_type=0x88b8 actions=output:4
+ cookie=0x0, duration=1119.813s, table=0, n_packets=22187, n_bytes=2595879, priority=260,in_port=2,dl_src=b4:b1:5a:00:00:02,dl_dst=01:0c:cd:01:00:01,dl_type=0x88ba actions=output:4
+ cookie=0x0, duration=1119.804s, table=0, n_packets=22188, n_bytes=2595996, priority=260,in_port=3,dl_src=00:30:a7:00:00:03,dl_dst=01:0c:cd:01:00:01,dl_type=0x88ba actions=output:4
+ cookie=0x0, duration=1119.797s, table=0, n_packets=0, n_bytes=0, priority=250,in_port=4,dl_dst=01:0c:cd:01:00:06,dl_type=0x88b8 actions=output:2,output:3
+ cookie=0x0, duration=1119.789s, table=0, n_packets=0, n_bytes=0, priority=250,in_port=4,dl_dst=01:0c:cd:01:00:01,dl_type=0x88ba actions=output:2,output:3
+ cookie=0x0, duration=1119.781s, table=0, n_packets=0, n_bytes=0, priority=230,ip,in_port=1,nw_src=1.1.10.10,nw_dst=1.1.3.10 actions=output:4
+ cookie=0x0, duration=1119.774s, table=0, n_packets=0, n_bytes=0, priority=230,ip,in_port=4,nw_src=1.1.3.10,nw_dst=1.1.10.10 actions=output:1
+ cookie=0x0, duration=1119.766s, table=0, n_packets=0, n_bytes=0, priority=200,arp,in_port=4 actions=output:2,output:3,output:1
+ cookie=0x0, duration=1119.757s, table=0, n_packets=0, n_bytes=0, priority=200,arp,in_port=2 actions=output:4
+ cookie=0x0, duration=1119.749s, table=0, n_packets=0, n_bytes=0, priority=200,arp,in_port=3 actions=output:4
+ cookie=0x0, duration=1119.742s, table=0, n_packets=0, n_bytes=0, priority=200,arp,in_port=1 actions=output:4
+ cookie=0x0, duration=1119.844s, table=0, n_packets=2, n_bytes=140, priority=0 actions=drop

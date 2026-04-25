@@ -1,0 +1,20 @@
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 2(DPSHV-eth2): addr:96:2e:04:70:e7:0c
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 3(DPSHV-eth3): addr:06:51:0d:a5:30:f6
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 4(DPSHV-eth4): addr:0a:74:4c:ac:c9:57
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(DPSHV): addr:ea:89:dd:86:3a:4a
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

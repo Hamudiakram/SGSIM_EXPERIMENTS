@@ -1,0 +1,45 @@
+To run run_capture.sh
+
+# sudo ./run_capture.sh <condition> <run_number> <duration_seconds>
+# example: sudo ./run_capture.sh baseline 1 120
+
+
+To run make_figures.py
+
+sudo apt install -y python3-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -U numpy pandas matplotlib scapy
+
+
+python ./make_figures.py --runs_root ./runs --baseline_prefix baseline_ --defense_prefix defense_ --start 1 --end 10 --hmi_iface DPSRS-eth4 --uplink_iface DPSRS-eth2 --attack_prefix combined_ --attack_start 1 --attack_end 5 --attacker_iface DPSRS-eth5 --outdir ./figures/combined --export_envelopes_csv ./results/combined/envelopes_with_paired_deltas.csv
+
+Command for combinedBroadcast
+
+python ./make_figures.py --runs_root ./runs --baseline_prefix baseline_ --defense_prefix defense_ --start 1 --end 10 --hmi_iface DPSRS-eth4 --uplink_iface DPSRS-eth2 --attack_prefix combinedBroadcast_ --attack_start 1 --attack_end 5 --attacker_iface DPSRS-eth5 --outdir ./figures/combinedBroadcast --export_envelopes_csv ./results/combinedBroadcast/envelopes_with_paired_deltas.csv
+
+######################################################################################################
+
+
+To apply the rules use this command inside mininet:
+
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_all_rules.sh
+
+or one by one
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsmv.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpshv.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsrs.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsgw.sh
+
+or 
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsmv.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpshv.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsrs.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsgw.sh
+
+Start DOS attack inside mininet
+
+mininet> ATTACKER sh -c "sleep 60; timeout 10s hping3 -S --flood -I ATTACKER-eth0 1.255.255.255"
+
+
+

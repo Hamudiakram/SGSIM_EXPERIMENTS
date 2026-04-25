@@ -1,0 +1,15 @@
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 2(DPSGW-eth2): addr:0e:bf:5d:ec:1e:56
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 3(DPSGW-eth3): addr:1a:09:0a:c1:b4:5b
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(DPSGW): addr:86:c6:3e:20:7e:42
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

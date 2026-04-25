@@ -1,0 +1,30 @@
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 1(DPSRS-eth1): addr:f2:29:cd:15:b4:7b
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 2(DPSRS-eth2): addr:1a:dd:bb:8b:04:fd
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 3(DPSRS-eth3): addr:92:68:56:b2:18:92
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 4(DPSRS-eth4): addr:ce:ca:7e:40:73:cd
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 5(DPSRS-eth5): addr:86:3a:0c:25:77:6e
+     config:     0
+     state:      LIVE
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(DPSRS): addr:72:46:36:a1:5f:4e
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

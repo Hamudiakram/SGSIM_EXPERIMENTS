@@ -1,0 +1,14 @@
+To apply the rules use this command:
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_all_rules.sh
+
+or
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsmv.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpshv.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsrs.sh
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsgw.sh
+
+or 
+
+sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsmv.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpshv.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsrs.sh; sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsgw.sh

@@ -1,0 +1,13 @@
+{
+  "run_id": "baseline_005",
+  "timestamp_iso": "2026-01-26T14:27:09+01:00",
+  "simulator_git_commit": "48ef6694097faeafe89a03233251947a63927ce9",
+  "attack_type": "baseline",
+  "attacker_placement": "",
+  "ruleset_file": "",
+  "ruleset_sha256": "",
+  "capture_duration_seconds": 120,
+  "interfaces": ["DPSRS-eth4","DPSRS-eth2","DPSRS-eth5","DPSRS-eth1","DPSHV-eth3"],
+  "openflow_version": "OpenFlow13",
+  "known_deviations": ""
+}
