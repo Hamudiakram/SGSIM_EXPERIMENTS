@@ -179,6 +179,3 @@ Main exported CSV output:
 
 - `results/combined/envelopes_with_paired_deltas.csv`
 
-## Notes
-
-The stored runs preserve packet captures, logs, OVS snapshots, and metadata for reproducibility.
