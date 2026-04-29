@@ -16,14 +16,31 @@ The repository was used together with SGSim in a structure like this:
 └── SmartGridSim/
     ├── ...
     └── SGSIM_EXPERIMENTS/
-        ├── figures/
-        │   └── combined/
-        ├── results/
-        │   └── combined/
-        ├── rules/
-        ├── runs/
-        ├── make_figures.py
-        └── run_capture.sh
+            ── figures
+            │   └── combined
+            │       ├── fig1_hmi_baseline_vs_defense.pdf
+            │       ├── fig1_hmi_baseline_vs_defense.png
+            │       ├── fig2_attacker_vs_hmi_multi.pdf
+            │       ├── fig2_attacker_vs_hmi_multi.png
+            │       ├── fig3_containment_uplink_vs_hmi_multi.pdf
+            │       └── fig3_containment_uplink_vs_hmi_multi.png
+            ├── make_figures.py
+            ├── README
+            ├── results
+            │   └── combined
+            │       └── envelopes_with_paired_deltas.csv
+            ├── rules
+            │   ├── zt_all_rules.sh
+            │  
+            ├── run_capture.sh
+            └── runs
+                ├── baseline_001
+                │   ├── logs
+                │   ├── manifest.sha256
+                │   ├── ovs
+                │   ├── pcaps
+                │   └── run_meta.json
+   
 ```
 
 ## Repository structure
