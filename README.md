@@ -143,6 +143,13 @@ sh /home/sgsim/SmartGridSim/SGSIM_EXPERIMENTS/rules/zt_dpsgw.sh
 ## Running the analysis
 
 ```bash
+sudo apt install -y python3-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -U numpy pandas matplotlib scapy
+```
+
+```bash
 python ./make_figures.py \
   --runs_root ./runs \
   --baseline_prefix baseline_ \
